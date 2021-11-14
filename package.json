@@ -1,0 +1,41 @@
+{
+  "name": "node-js-express-files",
+  "version": "1.0.0",
+  "description": "Node.js Express Rest APIs to Upload/Download Files",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [
+    "node js",
+    "upload",
+    "download",
+    "file",
+    "multipart",
+    "rest api",
+    "express",
+    "multer"
+  ],
+  "author": "hm",
+  "license": "ISC",
+  "dependencies": {
+    "app-info-parser": "^1.1.2",
+    "athena-express": "^7.1.0",
+    "aws-sdk": "^2.983.0",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.9",
+    "multer": "^1.4.2",
+    "node-cache": "^5.1.2",
+    "node-schedule": "^2.0.0",
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.1"
+  }
+}
